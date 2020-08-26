@@ -1,0 +1,10 @@
+---
+applications:
+- name: kihot1-myadmin
+  memory: 512M
+  host: kihot1-myadmin
+  domain: paas-ta.org
+  services:
+  - kihot1-mysql-db
+  instances: 1
+  disk_quota: 512M
